@@ -1,3 +1,9 @@
+"""
+INPUTS:
+int x
+int y
+"""
+
 import Rhino.Geometry as rg
 
 listOfLists = []
