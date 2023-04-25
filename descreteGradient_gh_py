@@ -1,0 +1,19 @@
+import Rhino.Geometry as rg
+import random
+import System.Drawing as drawing
+
+colors = []
+random.seed(0)
+
+for i in range (0,x):
+    for j in range (0,y):
+        
+        randomNumber = random.uniform(0.0, 1.0)
+        if (randomNumber < (i / (x-1))):
+            #colors.append(drawing.Color.Crimson)
+            colors.append(drawing.Color.FromArgb(3,2,3))
+        else:
+            colors.append(drawing.Color.Aquamarine)
+
+
+oColors = colors
