@@ -1,0 +1,13 @@
+import Rhino.Geometry as rg
+
+
+class FacadePanel():
+    def __init__(self, geometry, print_time):
+        
+        self.geometry = rg.Brep() #initialize
+        self.print_time = 0
+
+    def mesurePrintTime(self):
+        return 100
+
+myPanel = FacadePanel(iBrep, 12)
